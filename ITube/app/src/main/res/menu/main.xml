@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:title="Cari" />
+
+    <item
+        android:id="@+id/menu_choose_directory"
+        android:icon="@android:drawable/ic_input_get"
+        android:orderInCategory="200"
+        app:showAsAction="collapseActionView"
+        android:title="Pilih Folder" />
+
+    <item
+        android:id="@+id/menu_change_title"
+        android:icon="@android:drawable/ic_input_get"
+        android:orderInCategory="200"
+        app:showAsAction="collapseActionView"
+        android:title="Ubah Judul" />
+
+    <item
+        android:id="@+id/menu_choose_directory_ext"
+        android:icon="@android:drawable/ic_input_get"
+        android:orderInCategory="200"
+        app:showAsAction="collapseActionView"
+        android:visible="false"
+        android:title="Pilih Folder SD Card" />
+
+</menu>
